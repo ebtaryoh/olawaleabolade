@@ -8,28 +8,28 @@ const projects = [
   {
     id: 'lefta',
     title: 'Lefta Wealth',
-    description: 'Lefta is a Tasked with designing a Smart Investment ISA app for a new generation of both new and experienced users, with a strong emphasis on accessibility. The role focused on creating a seamless, user-friendly experience that empowers users to make informed investment decisions.',
+    description: 'A mobile Smart Investment ISA app designed to cater to both new and experienced users, with a strong emphasis on accessibility, providing a seamless, user-friendly experience that empowers users to make informed investment decisions.',
     image: leftaImg,
     bgColor: 'bg-indigo-50'
   },
   {
     id: 'neugen',
     title: 'NeuGenPower',
-    description: 'NeuGenPower is a Designed a future-facing digital platform for NeuGen Power to make clean hydrogen energy easier for everyday users to access and manage. Focused on creating a simple, intuitive experience for purchasing, tracking, and controlling energy use, enabling users to confidently adopt cleaner energy solutions.',
+    description: 'A future-facing digital platform created for NeuGen Power to make clean hydrogen energy easily accessible and manageable for everyday users. Focused on providing a simple, intuitive experience for purchasing, tracking, and controlling energy use, empowering users to confidently embrace cleaner energy solutions.',
     image: neugenImg,
     bgColor: 'bg-emerald-50'
   },
   {
     id: 'benfa',
     title: 'Benfa',
-    description: 'Benfa is a This project builds an affective computing based study companion that detects students’ emotions and adapts support in real time across voice, text, and facial inputs, using large language models to deliver tailored explanations.',
+    description: 'Affective computing-based study companion built to detect students’ emotions and adapt support in real time across voice, text, and facial inputs, utilizing large language models to provide tailored explanations.',
     image: benfaImg,
     bgColor: 'bg-blue-50'
   },
   {
     id: 'handiwork',
     title: 'Handiwork',
-    description: 'Handiwork is a This project builds a mobile and web platform that connects users with skilled artisans such as plumbers, electricians, and carpenters, enabling quick access to trusted professionals and a smoother, more efficient way to get tasks done.',
+    description: 'A mobile and web platform created to connect users with skilled artisans like plumbers, electricians, and carpenters, offering quick access to trusted professionals for a more efficient and seamless task completion experience.',
     image: handiworkImg,
     bgColor: 'bg-teal-50'
   }
@@ -49,9 +49,9 @@ const SelectedWork = () => {
         {projects.map((project) => (
           <div key={project.id} className={`group cursor-pointer rounded-sm overflow-hidden flex flex-col ${project.bgColor}`}>
             <div className="flex-grow p-8 flex items-center justify-center">
-              <img 
-                src={project.image} 
-                alt={project.title} 
+              <img
+                src={project.image}
+                alt={project.title}
                 className="w-full h-auto max-h-[400px] object-contain transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
