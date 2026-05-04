@@ -3,12 +3,11 @@ import React from 'react';
 const Prototypes = () => {
   return (
     <section className="py-24 px-8 md:px-16 w-full max-w-7xl mx-auto border-t border-gray-200">
-      <div className="flex justify-between items-end mb-16">
-        <h2 className="text-4xl md:text-5xl font-serif font-medium">Prototypes</h2>
-        <a href="#prototypes" className="hidden md:flex items-center text-xs font-bold uppercase tracking-widest group border-b border-primary pb-1 hover:text-gray-600 hover:border-gray-600 transition-colors">
-          View all prototypes
-          <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
-        </a>
+      <div className="flex justify-between items-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-sans font-bold text-gray-900">Prototypes</h2>
+        <span className="hidden md:block text-xs font-semibold uppercase tracking-widest text-gray-700">
+          INTERACTIVE DEMONSTRATION OF DESIGN SOLUTION
+        </span>
       </div>
 
       <div className="space-y-32">
