@@ -18,8 +18,15 @@ const Prototypes = () => {
             <p className="text-base text-gray-700 leading-relaxed font-sans font-light">
               This prototype showcases the onboarding flow, account creation/login, ISA eligibility confirmation, and a user dashboard displaying key balances such as savings, portfolio, and ISA, and many more.</p>
           </div>
-          <div className="w-full h-[600px] bg-[#e8e6df] rounded-sm flex items-center justify-center">
-            <span className="text-gray-400 font-sans tracking-widest uppercase text-sm">Interactive Prototype Placeholder</span>
+          <div className="w-full rounded-sm overflow-hidden bg-[#e8e6df] flex items-center justify-center">
+            <video 
+              src="/lefta-video.mp4" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              className="w-full max-h-[700px] object-contain"
+            />
           </div>
         </div>
 
@@ -30,8 +37,15 @@ const Prototypes = () => {
             <p className="text-base text-gray-700 leading-relaxed font-sans font-light">
              This prototype demonstrates a future-facing digital platform for NeuGen Power, showcasing key features such as energy purchasing, usage tracking, and real-time monitoring. It highlights a simple, intuitive experience designed to make clean hydrogen energy accessible and easy to manage for everyday users.</p>
           </div>
-          <div className="w-full h-[600px] bg-[#e8e6df] rounded-sm flex items-center justify-center">
-            <span className="text-gray-400 font-sans tracking-widest uppercase text-sm">Interactive Prototype Placeholder</span>
+          <div className="w-full rounded-sm overflow-hidden bg-[#e8e6df] flex items-center justify-center">
+            <video 
+              src="/neugen-video.mp4" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              className="w-full max-h-[700px] object-contain"
+            />
           </div>
         </div>
       </div>

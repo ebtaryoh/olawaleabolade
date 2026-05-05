@@ -9,10 +9,10 @@ const Footer = () => {
       </p>
       
       <div className="flex space-x-12 md:space-x-16 mb-24">
-        <a href="#" className="text-sm font-medium uppercase tracking-widest text-gray-900 border-b border-gray-400 pb-2 hover:text-gray-500 hover:border-gray-500 transition-colors">
+        <a href="mailto:abolademukaila@gmail.com" className="text-sm font-medium uppercase tracking-widest text-gray-900 border-b border-gray-400 pb-2 hover:text-gray-500 hover:border-gray-500 transition-colors">
           EMAIL
         </a>
-        <a href="#" className="text-sm font-medium uppercase tracking-widest text-gray-900 border-b border-gray-400 pb-2 hover:text-gray-500 hover:border-gray-500 transition-colors">
+        <a href="https://www.linkedin.com/in/olawale-abolade-169786195?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="text-sm font-medium uppercase tracking-widest text-gray-900 border-b border-gray-400 pb-2 hover:text-gray-500 hover:border-gray-500 transition-colors">
           LINKEDIN
         </a>
         <a href="/resume.pdf" className="text-sm font-medium uppercase tracking-widest text-gray-900 border-b border-gray-400 pb-2 hover:text-gray-500 hover:border-gray-500 transition-colors flex items-center">
