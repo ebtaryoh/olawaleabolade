@@ -21,9 +21,9 @@ const Prototypes = () => {
           <div className="w-full rounded-sm overflow-hidden bg-[#e8e6df] flex items-center justify-center">
             <video 
               src="/lefta-video.mp4" 
-              autoPlay 
+              controls 
               loop 
-              muted 
+              muted
               playsInline 
               className="w-full max-h-[700px] object-contain"
             />
@@ -40,9 +40,9 @@ const Prototypes = () => {
           <div className="w-full rounded-sm overflow-hidden bg-[#e8e6df] flex items-center justify-center">
             <video 
               src="/neugen-video.mp4" 
-              autoPlay 
+              controls 
               loop 
-              muted 
+              muted
               playsInline 
               className="w-full max-h-[700px] object-contain"
             />
